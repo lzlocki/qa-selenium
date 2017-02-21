@@ -25,7 +25,7 @@ public class Dropdown {
         driver.quit();
     }
 
-    @Test
+//    @Test
     public void dropdownTest() {
         driver.get("http://the-internet.herokuapp.com/dropdown");
         WebElement dropdownList = driver.findElement(By.id("dropdown"));
